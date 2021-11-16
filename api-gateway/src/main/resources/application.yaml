@@ -1,0 +1,6 @@
+server:
+  port: 18081
+spring:
+  kafka:
+    bootstrap-servers: kafka:9092
+debug: false

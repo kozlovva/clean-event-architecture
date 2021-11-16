@@ -1,0 +1,8 @@
+server:
+  port: 18082
+spring:
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer:
+      group-id: consumer-service
+      enable-auto-commit: true
